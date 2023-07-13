@@ -1,29 +1,35 @@
 import Home from '../Pages/Home/home';
+import Form from '../Pages/Form/form';
 const routes = [
     {
         nav:true,
         route:"/",
-        component:Home
+        component:Home,
+        text:"Home"
     },
     {
         nav:true,
         route:"/form",
-        component:Home
+        component:Form,
+        text:"Forms"
     },
     {
         nav:true,
         route:"/table",
-        component:Home
+        component:Home,
+        text:"Table"
     },
     {
         nav:true,
-        route:"/what",
-        component:Home
+        route:"/grid",
+        component:Home,
+        text:"Grid"
     },
     {
         nav:true,
-        route:"/why",
-        component:Home
+        route:"/datagrid",
+        component:Home,
+        text:"Data Grid"
     }
 ]
 

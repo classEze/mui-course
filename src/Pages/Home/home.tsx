@@ -1,8 +1,10 @@
-import React from 'react'
+import {Paper} from '@mui/material';
 
 function Home() {
   return (
-    <div>Home we are</div>
+    <Paper>
+      You know how we do it right
+      </Paper>
   )
 }
 
