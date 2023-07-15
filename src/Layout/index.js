@@ -8,7 +8,7 @@ function Index() {
     <Routes>
         { 
         routeList.map(item => {
-            return <Route path={item.route} element={<PageWithNav {...item}/>} />
+            return <Route path={item.route} key={item.route} element={<PageWithNav {...item}/>} />
         })
       }
      </Routes>
